@@ -1,6 +1,6 @@
 import os, shutil
 
-original_dataset_dir = '/train/'
+original_dataset_dir = 'blog/dogs_cats/data/train'
 
 base_dir = 'blog/dogs_cats/data'
 if not os.path.exists(base_dir):
