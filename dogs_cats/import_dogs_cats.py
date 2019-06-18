@@ -2,7 +2,7 @@ import os, shutil
 
 original_dataset_dir = '/dogs_cats_dataset/train/'
 
-base_dir = '/blog/dogs_cats/data'
+base_dir = 'blog/dogs_cats/data'
 if not os.path.exists(base_dir):
     os.mkdir(base_dir)
 
